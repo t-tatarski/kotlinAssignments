@@ -9,6 +9,11 @@ fun main(args: Array<String>) {
     print("\n\ta2\n---------\n")
     var airplane = Airplane("cessna")
     println(airplane.getName())
+    print("\n\ta3\n---------\n")
+    println(::addSum.invoke(5,10))
 
+}
 
+fun addSum(a:Int,b:Int):Int {
+return a+b
 }
