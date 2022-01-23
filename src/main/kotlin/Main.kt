@@ -6,6 +6,9 @@ fun main(args: Array<String>) {
     for ((index, value) in highScrs.withIndex()){
         println("element: $index of array have value: $value ")
     }
+    print("\n\ta2\n---------\n")
+    var airplane = Airplane("cessna")
+    println(airplane.getName())
 
 
 }
