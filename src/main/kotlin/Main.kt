@@ -36,6 +36,8 @@ fun main(args: Array<String>) {
     if ( rv in 1..10){
         print("$rv is lower than 11 and greter than 0")
     }
+   // val ran= List(49) { Random.nextInt(1,49)}
+    // println(ran)
 
 
 
