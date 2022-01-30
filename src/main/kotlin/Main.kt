@@ -43,9 +43,23 @@ fun main(args: Array<String>) {
     for (r in rndSorted){
         println(r)
     }
+    showHashCode(1)
+    //Q11
+    val rndm = Random.nextInt(1,6)
+    when(rndm){
+        1 -> println("die is 1")
+        2 -> println("die is 2")
+        3 -> println("die is 3")
+        in 4..6 -> println("die is greater than 3 ")
+    }
 
 
 
+
+}
+
+fun showHashCode(obj: Any) {
+    println("${obj.hashCode()}")
 
 }
 
