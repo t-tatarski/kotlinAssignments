@@ -73,8 +73,24 @@ fun main(args: Array<String>) {
     //Q13 By default, Kotlin classes are final – they can’t be inherited. To make a class inheritable, mark it with the open keyword
     // open class Shape --->   class Circle : Shape
 
+    //Q14 val b can be null
+    val b:String=""
+    println(b?.length ?: 0)
+    //Q15
+    println("----------list with filtering function ----------")
+    val list2=(80..100).toList().filter(::removeBadValues)
+    for(li in list2){
+        print(" -  $li")
+    }
+
 
 }
+
+fun removeBadValues(i: Int): Boolean {
+    return i%2==0
+
+}
+
 inline fun multi (x: Int):Int{
     return x*x
 }
