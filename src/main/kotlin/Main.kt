@@ -82,6 +82,10 @@ fun main(args: Array<String>) {
     for(li in list2){
         print(" -  $li")
     }
+    //Q16 "Safe" (nullable) cast operator
+    val y = "test"
+    val x: String? = y as? String
+
 
 
 }
