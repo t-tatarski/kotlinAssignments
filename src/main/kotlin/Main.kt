@@ -70,6 +70,8 @@ fun main(args: Array<String>) {
     val fruits = setOf("apple","pear","orange","apple")
     println("set:")
     println(fruits.count())
+    //Q13 By default, Kotlin classes are final – they can’t be inherited. To make a class inheritable, mark it with the open keyword
+    // open class Shape --->   class Circle : Shape
 
 
 }
