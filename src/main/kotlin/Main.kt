@@ -94,6 +94,10 @@ fun main(args: Array<String>) {
     }
     val asc = Array(10){z ->(z*z).toString()}
     asc.forEach { println(it) }
+    //Q18 === determines if two references point to the same object
+    val aaa="tmk"
+    val bbb=aaa
+    aaa?.equals(bbb) ?: (bbb === null)
 
 
 
