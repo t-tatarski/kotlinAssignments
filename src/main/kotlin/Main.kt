@@ -92,6 +92,8 @@ fun main(args: Array<String>) {
     for (itr in seq){
         print("$itr  ")
     }
+    val asc = Array(10){z ->(z*z).toString()}
+    asc.forEach { println(it) }
 
 
 
