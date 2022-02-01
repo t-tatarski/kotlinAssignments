@@ -85,6 +85,13 @@ fun main(args: Array<String>) {
     //Q16 "Safe" (nullable) cast operator
     val y = "test"
     val x: String? = y as? String
+    //Q17
+    println("\n----------------sequence---------------")
+    val seq = sequence {yieldAll(1..20)}
+        .filter { it <=11 }
+    for (itr in seq){
+        print("$itr  ")
+    }
 
 
 
