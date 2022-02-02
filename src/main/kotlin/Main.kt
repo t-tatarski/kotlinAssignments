@@ -103,9 +103,13 @@ fun main(args: Array<String>) {
     println(Signal.SENDING.ordinal)
     println(Signal.OPEN.ordinal)
     println(Signal.CLOSED.ordinal)
-
+    //Q20
     val aircr = Airplane("cessna")
     showClass(aircr)
+    //Q21
+    val exampleString:String? = null //initialize a nullable variable
+    println(exampleString)
+
 
 
 
