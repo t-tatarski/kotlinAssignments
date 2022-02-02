@@ -104,7 +104,15 @@ fun main(args: Array<String>) {
     println(Signal.OPEN.ordinal)
     println(Signal.CLOSED.ordinal)
 
+    val aircr = Airplane("cessna")
+    showClass(aircr)
 
+
+
+}
+
+fun showClass(aircr: Any) {
+    println(aircr::class)
 
 }
 
