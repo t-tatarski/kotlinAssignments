@@ -109,7 +109,8 @@ fun main(args: Array<String>) {
     //Q21
     val exampleString:String? = null //initialize a nullable variable
     println(exampleString)
-
+    //Q22                val len: Int = if (x != null) x.length else -1
+    //idiomatic version: val len = x?.length ?: -1
 
 
 
