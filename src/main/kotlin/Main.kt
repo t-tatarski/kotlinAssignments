@@ -98,6 +98,11 @@ fun main(args: Array<String>) {
     val aaa="tmk"
     val bbb=aaa
     aaa?.equals(bbb) ?: (bbb === null)
+    //Q19 enum class
+    println("------enum class ordinal-------")
+    println(Signal.SENDING.ordinal)
+    println(Signal.OPEN.ordinal)
+    println(Signal.CLOSED.ordinal)
 
 
 
@@ -128,3 +133,4 @@ fun showHashCode(obj: Any) {
 fun addSum(a:Int,b:Int):Int {
 return a+b
 }
+enum class Signal {OPEN, CLOSED, SENDING}
