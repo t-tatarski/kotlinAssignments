@@ -109,10 +109,14 @@ fun main(args: Array<String>) {
     //Q21
     val exampleString:String? = null //initialize a nullable variable
     println(exampleString)
-    //Q22                val len: Int = if (x != null) x.length else -1
+    //Q22
+// val len: Int = if (x != null) x.length else -1
     //idiomatic version: val len = x?.length ?: -1
 
-
+//Q23
+    for( (ndx, value) in (1..10).withIndex() ){
+        println("index: $ndx - - value $value")
+    }
 
 }
 
