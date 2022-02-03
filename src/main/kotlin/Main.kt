@@ -117,6 +117,23 @@ fun main(args: Array<String>) {
     for( (ndx, value) in (1..10).withIndex() ){
         println("index: $ndx - - value $value")
     }
+    //Q24
+    val exmplVal : Int = 3
+    if (exmplVal in 1..10){ // eqiuvalent if 1>= i && i<=4
+        print(exmplVal)
+    }
+    //Q25
+    println("----- for with descending order -----")
+    for (x in 10 downTo 1 step 2){
+        print(" - $x ")
+    }
+    //Q26
+    val person = Person("tomek","admin")
+    println("\nPerson object components: ")
+    println(person.component1())
+    println(person.component2())
+
+
 
 }
 
