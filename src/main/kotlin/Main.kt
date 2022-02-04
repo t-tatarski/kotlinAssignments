@@ -133,7 +133,24 @@ fun main(args: Array<String>) {
     println(person.component1())
     println(person.component2())
 
+    // Q27 for(y in 1..100) y+=2   y value is immutable
+    // Q28
+    val students = arrayOf("adam","beti","cecylia","filip")
+    printStudents(*students) //  spread operator added
+    /*
+    When we call a vararg-function, we can pass arguments one-by-one,
+     e.g. asList(1, 2, 3), or, if we already have an array and want to pass its contents to the function,
+     we use the spread operator (prefix the array with *):
+    */
 
+
+
+}
+
+fun printStudents(vararg students:String) {
+    for(student in students){
+        println(student)
+    }
 
 }
 
