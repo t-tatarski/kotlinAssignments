@@ -142,6 +142,16 @@ fun main(args: Array<String>) {
      e.g. asList(1, 2, 3), or, if we already have an array and want to pass its contents to the function,
      we use the spread operator (prefix the array with *):
     */
+     //Q29
+    val yy = arrayOf(1,2,3,4,5,6)
+    val zz = listOf(1,2,3,4,5,6)
+    println(yy.size)
+    println(yy[3])
+    println(yy.indexOf(3))
+    //Q30
+    val quote = "the eagle has landed"
+    println("the length of the quote is ${quote.length}")
+
 
 
 
