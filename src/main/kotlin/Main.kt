@@ -152,6 +152,13 @@ fun main(args: Array<String>) {
     val quote = "the eagle has landed"
     println("the length of the quote is ${quote.length}")
 
+    //Q31
+    val binStr = "00001111"
+    val myInt = binStr.toInt(2)
+    val myInt1 = binStr.toInt(3)
+    println(" 00001111 -> $myInt")
+
+
 
 
 
