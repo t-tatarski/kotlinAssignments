@@ -157,6 +157,9 @@ fun main(args: Array<String>) {
     val myInt = binStr.toInt(2)
     val myInt1 = binStr.toInt(3)
     println(" 00001111 -> $myInt")
+    //Q32 long immutable creating
+    val longVal = 100L
+    println(longVal)
 
 
 
