@@ -179,6 +179,11 @@ fun main(args: Array<String>){
     for (i in filterCountries){
         println(" >  $i")
     }
+    val numbers = listOf(1,2,3,4,5,6,7,8)
+    val mul = numbers.map { x-> x*2 }
+    for( x in mul){
+        println(" x - ")
+    }
 
 
 
