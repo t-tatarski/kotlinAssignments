@@ -1,9 +1,9 @@
 import java.util.*
 import kotlin.random.Random
-import kotlin.random.Random.Default.nextInt
 
 
-fun main(args: Array<String>) {
+fun main(args: Array<String>){
+
     //Q1
     val highScrs= listOf(100,200,304,404,808,994)
     for (ele:Int in highScrs){
@@ -167,7 +167,18 @@ fun main(args: Array<String>) {
     for (jo in joined){
         print("${jo}  ")
     }
-
+    //Q33 map
+    val countries: MutableMap<Int, String> = mutableMapOf(1 to "poland", 2 to "germany", 3 to "gb", 4 to "france", 5 to "russia")
+    print("\n ------ list of countries -------\n")
+    countries.forEach{
+        k,v->
+        println("pos. $k  -  country : $v")
+    }
+    //Q34 filter
+    val filterCountries = countries.filterKeys { x -> x>2 }
+    for (i in filterCountries){
+        println(" >  $i")
+    }
 
 
 
