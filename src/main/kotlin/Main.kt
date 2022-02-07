@@ -161,6 +161,13 @@ fun main(args: Array<String>) {
     val longVal = 100L
     println(longVal)
 
+    //Q32
+    val itmz= listOf(1,2,3,4,5,6,7,8,9,10,11,12)
+    val joined = itmz.fold("elements:",{ acc, i -> acc+" "+i})
+    for (jo in joined){
+        print("${jo}  ")
+    }
+
 
 
 
