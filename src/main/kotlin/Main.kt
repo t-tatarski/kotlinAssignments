@@ -182,7 +182,7 @@ fun main(args: Array<String>){
     val numbers = listOf(1,2,3,4,5,6,7,8)
     val mul = numbers.map { x-> x*2 }
     for( x in mul){
-        println(" x - ")
+        println(" $x - ")
     }
 
 
