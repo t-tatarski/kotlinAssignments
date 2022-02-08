@@ -174,6 +174,11 @@ fun main(args: Array<String>){
         k,v->
         println("pos. $k  -  country : $v")
     }
+    //or
+    for((k,v) in countries){
+        println("> $k  -  $v")
+    }
+
     //Q34 filter
     val filterCountries = countries.filterKeys { x -> x>2 }
     for (i in filterCountries){
