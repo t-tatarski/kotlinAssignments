@@ -184,6 +184,11 @@ fun main(args: Array<String>){
     for( x in mul){
         println(" $x - ")
     }
+    val numbList = listOf(1,2,3,4,5,6,7,8,9,10,11,12)
+    val allEven = numbList.filter{it %2==1}
+        for ( i in allEven){
+            println ("  ${i}  ")
+        }
 
 
 
