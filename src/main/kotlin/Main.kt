@@ -2,7 +2,13 @@ import java.util.*
 import kotlin.random.Random
 
 
+
 fun main(args: Array<String>){
+
+    //coroutines example
+    val start = System.currentTimeMillis()
+   
+
 
     //Q1
     val highScrs= listOf(100,200,304,404,808,994)
@@ -195,10 +201,19 @@ fun main(args: Array<String>){
             println ("  ${i}  ")
         }
 
+    //Q35 function
+    println(sumFun(2,3))
+
+    //Q36
+    val upperCase1:(String) -> String = { str:String -> str.uppercase()}
+    println(upperCase1("this is example string"))
+
 
 
 
 }
+
+fun sumFun(x:Int, y:Int)=x+y
 
 fun printStudents(vararg students:String) {
     for(student in students){
